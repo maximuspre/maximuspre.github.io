@@ -102,7 +102,6 @@ struct GeometryBuffer
     float2 metallicRoughness : SV_Target4;
 };
 
-
 GeometryBuffer main(PixelShaderInput input)
 {
   GeometryBuffer gBuffer;
